@@ -1,0 +1,31 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("https://wallpapercave.com/wp/wp3348587.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+}
+h1
+{
+    color: goldenrod;
+    font-size: 50px;
+}
+#message-el , p
+{
+    font-size: 40px;
+    color: #FFFFFF;
+}
+button
+{
+color: #016f32;
+width: 450px;
+font-size: 30px;
+border-radius: 10px;
+background-color: goldenrod;
+margin-bottom: 10px;
+}

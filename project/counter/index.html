@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter with a button of odd and even with another button of how many total click happen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="counters">
+        <div id="btns">
+            <div class="btn1">
+                <label for="btn-left">Total Clicks</label>
+                <button id="btn-left">0</button>
+            </div>
+            <div class="btn2">
+                <label for="btn-right">Even or Odd</label>
+                <button id="btn-right">Even</button>
+            </div>
+           
+         </div>
+     <p id="count">0</p>
+     <div id="buttons">
+     <button onclick="incr1()">+2</button>
+     <button onclick="incr2()">+3</button>
+     <button onclick="incr3()">+4</button>
+     <button onclick="reset()">Reset</button>
+     </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

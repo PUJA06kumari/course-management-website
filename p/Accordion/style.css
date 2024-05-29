@@ -1,0 +1,19 @@
+.faq
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faq .icon
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.faq p
+{
+    display: none;
+}
+.faq.open p
+{
+    display: block;
+}

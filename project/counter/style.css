@@ -1,0 +1,37 @@
+body
+{
+    height: 50vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#counters
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200604/pngtree-mathematics-education-green-border-background-image_337860.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 24px;
+}
+#btn
+{
+    display: flex;
+    justify-content: space-between;
+}
+.btns1
+{
+    display:flex;
+    justify-content: center;
+    align-items:flex-start ;
+    f
+   
+}
